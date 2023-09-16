@@ -8,7 +8,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "echo \"[Husky] pre-commit\""
+      "pre-push": "flutter test && flutter build apk"
     }
   },
   "license": "ISC",

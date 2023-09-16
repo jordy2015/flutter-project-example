@@ -3,7 +3,8 @@ const scope = [
     'transfer',
     'login',
     'balance',
-    'kyc'
+    'kyc',
+    'core'
 ]
 
 module.exports = {
