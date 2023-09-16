@@ -3,12 +3,13 @@
   "version": "5.1.0",
   "description": "This repo will be an example",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "flutter test && flutter build apk"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "flutter test && flutter build apk"
+      "pre-push": "npm run build"
     }
   },
   "license": "ISC",
