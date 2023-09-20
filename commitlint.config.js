@@ -4,7 +4,8 @@ const scope = [
     'login',
     'balance',
     'kyc',
-    'core'
+    'core',
+    'pipeline'
 ]
 
 module.exports = {
